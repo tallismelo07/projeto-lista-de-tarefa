@@ -1,0 +1,61 @@
+.new-button {
+    font-weight: 500;
+    color: var(--branco);
+    background-color: var(--verde);
+    border-radius: 15px;
+    line-height: 19px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 107px;
+    height: 44px;
+}
+
+
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    margin: 6em;
+    background-color: var(--cinza);
+    padding: 1rem;
+    width: 467px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: rgba(173, 181, 189, 0.827451);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -90px;
+}
+
+.tarefas {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-tarefa {
+    width: 387px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.assunto {
+    width: 387px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
